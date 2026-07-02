@@ -1,0 +1,126 @@
+2025-12-02 15:02:50.034738: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-02 15:02:50.041473: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1764687770.050161 3740421 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1764687770.052697 3740421 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1764687770.058807 3740421 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1764687770.058819 3740421 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1764687770.058821 3740421 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1764687770.058822 3740421 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-12-02 15:02:50.060985: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Namespace(num_units=1000, num_layers=4, encoder_type='uni', num_embeddings_partitions=0, residual=True, time_major=True, attention='luong', pass_hidden_state=True, attention_architecture='standard', optimizer='adam', learning_rate=1e-05, start_decay_step=0, decay_steps=10000, decay_factor=0.98, num_train_steps=150000, colocate_gradients_with_ops=True, init_op='glorot_normal', init_weight=0.1, src='sign', tgt='en', train_prefix='../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.train', dev_prefix='../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.dev', test_prefix='../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.test', out_dir='../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark', vocab_prefix='../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.VOCAB_original', sos='<s>', eos='</s>', src_max_len=300, tgt_max_len=50, src_max_len_infer=300, tgt_max_len_infer=None, unit_type='gru', forget_bias=1.0, dropout=0.2, max_gradient_norm=5.0, batch_size=1, source_reverse=True, eval_on_fly=True, snapshot_interval=1000, steps_per_stats=100, max_train=0, num_buckets=0, bpe_delimiter=None, base_gpu=0, num_gpus=2, log_device_placement=False, metrics='bleu', steps_per_external_eval=None, scope=None, hparams_path=None, random_seed=285, ckpt='', inference_input_file=None, inference_list=None, infer_batch_size=32, inference_output_file=None, inference_ref_file=None, beam_width=3, length_penalty_weight=0.0, jobid=0, num_workers=1)
+# Job id 0
+# Set random seed to 285
+# Loading hparams from ../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark/hparams
+  saving hparams to ../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark/hparams
+  saving hparams to ../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark/best_bleu/hparams
+  attention=luong
+  attention_architecture=standard
+  base_gpu=0
+  batch_size=1
+  beam_width=3
+  best_bleu=0
+  best_bleu_dir=../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark/best_bleu
+  bpe_delimiter=None
+  colocate_gradients_with_ops=True
+  decay_factor=0.98
+  decay_steps=10000
+  dev_prefix=../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.dev
+  dropout=0.2
+  encoder_type=uni
+  eos=</s>
+  epoch_step=0
+  eval_on_fly=True
+  forget_bias=1.0
+  infer_batch_size=32
+  init_op=glorot_normal
+  init_weight=0.1
+  learning_rate=1e-05
+  length_penalty_weight=0.0
+  log_device_placement=False
+  max_gradient_norm=5.0
+  max_train=0
+  metrics=['bleu']
+  num_buckets=0
+  num_embeddings_partitions=0
+  num_gpus=2
+  num_layers=4
+  num_residual_layers=3
+  num_train_steps=150000
+  num_units=1000
+  optimizer=adam
+  out_dir=../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark
+  pass_hidden_state=True
+  random_seed=285
+  residual=True
+  snapshot_interval=1000
+  sos=<s>
+  source_reverse=True
+  src=sign
+  src_max_len=300
+  src_max_len_infer=300
+  start_decay_step=0
+  steps_per_external_eval=None
+  steps_per_stats=100
+  test_prefix=../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.test
+  tgt=en
+  tgt_max_len=50
+  tgt_max_len_infer=None
+  tgt_vocab_file=../../../../../M2M-MT-files/NSLT_Dipolelo_Benchmark/dipolelo.VOCAB_original.en
+  tgt_vocab_size=6367
+  time_major=True
+  train_prefix=../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.train
+  unit_type=gru
+  vocab_prefix=../../../../../M2M-MT-files/Youtube_Dipolelo_Video_Frames_Paths/dipolelo.VOCAB_original
+I0000 00:00:1764687775.109223 3740421 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 46366 MB memory:  -> device: 0, name: NVIDIA RTX A6000, pci bus id: 0000:01:00.0, compute capability: 8.6
+I0000 00:00:1764687775.109488 3740421 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:1 with 46871 MB memory:  -> device: 1, name: NVIDIA RTX A6000, pci bus id: 0000:05:00.0, compute capability: 8.6
+I0000 00:00:1764687785.440518 3740421 cuda_dnn.cc:529] Loaded cuDNN version 90101
+# creating train graph ...
+  num_layers = 4, num_residual_layers=3
+  cell 0  GRU  GRUCell, dropout=0.2   Device=/GPU:0
+  cell 1  GRU  GRUCell, dropout=0.2   Residual connection enabled  Device=/GPU:0
+  cell 2  GRU  GRUCell, dropout=0.2   Residual connection enabled  Device=/GPU:0
+  cell 3  GRU  GRUCell, dropout=0.2   Residual connection enabled  Device=/GPU:0
+2025-12-02 15:03:08.580139: W tensorflow/core/framework/op_kernel.cc:1857] OP_REQUIRES failed at strided_slice_op.cc:111 : INVALID_ARGUMENT: Index out of range using input dim 2; input has only 2 dims
+2025-12-02 15:03:08.580163: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: INVALID_ARGUMENT: Index out of range using input dim 2; input has only 2 dims
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/nmt.py", line 432, in <module>
+    main(None)
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/nmt.py", line 412, in main
+    run_main(FLAGS, default_hparams, train_fn, inference_fn)
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/nmt.py", line 403, in run_main
+    train_fn(hparams, target_session=target_session)
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/train.py", line 283, in train
+    train_model = create_train_model(model_creator, hparams, scope, single_cell_fn)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/train.py", line 77, in create_train_model
+    model = model_creator(
+            ^^^^^^^^^^^^^^
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/attention_model.py", line 23, in __init__
+    super(AttentionModel, self).__init__(
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/model.py", line 101, in __init__
+    res = self.build_graph(hparams, scope=scope)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/model.py", line 229, in build_graph
+    encoder_outputs, encoder_state = self._build_encoder(hparams)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neo/thapelo/PhD_Work/SLT_Work/nslt/nslt/model.py", line 362, in _build_encoder
+    result = rnn(
+             ^^^^
+  File "/home/neo/anaconda3/envs/nslt_py3/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/neo/anaconda3/envs/nslt_py3/lib/python3.12/site-packages/tensorflow/python/framework/ops.py", line 6006, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Exception encountered when calling RNN.call().
+
+[1m{{function_node __wrapped__StridedSlice_device_/job:localhost/replica:0/task:0/device:GPU:0}} Index out of range using input dim 2; input has only 2 dims [Op:StridedSlice] name: dynamic_seq2seq/encoder/rnn_1/rnn/strided_slice/[0m
+
+Arguments received by RNN.call():
+  • sequences=tf.Tensor(shape=(300, 4096), dtype=float32)
+  • initial_state=(['tf.Tensor(shape=(300, 1000), dtype=float32)'], ['tf.Tensor(shape=(300, 1000), dtype=float32)'], ['tf.Tensor(shape=(300, 1000), dtype=float32)'], ['tf.Tensor(shape=(300, 1000), dtype=float32)'])
+  • mask=None
+  • training=False
