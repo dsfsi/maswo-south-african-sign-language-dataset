@@ -1,0 +1,93 @@
+Collecting mmtrack
+  Using cached mmtrack-0.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting attributee (from mmtrack)
+  Using cached attributee-0.1.9.tar.gz (11 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting dotty-dict (from mmtrack)
+  Using cached dotty_dict-1.3.1-py3-none-any.whl.metadata (5.3 kB)
+Collecting lap (from mmtrack)
+  Downloading lap-0.5.12-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.2 kB)
+Requirement already satisfied: matplotlib in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from mmtrack) (3.9.4)
+Collecting mmcls<1.0.0,>=0.16.0 (from mmtrack)
+  Using cached mmcls-0.25.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting motmetrics (from mmtrack)
+  Using cached motmetrics-1.4.0-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: packaging in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from mmtrack) (25.0)
+Collecting pandas<=1.3.5 (from mmtrack)
+  Downloading pandas-1.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
+Requirement already satisfied: pycocotools in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from mmtrack) (2.0.10)
+Collecting scipy<=1.7.3 (from mmtrack)
+  Downloading scipy-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.2 kB)
+Collecting seaborn (from mmtrack)
+  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: terminaltables in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from mmtrack) (3.1.10)
+Collecting tqdm (from mmtrack)
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Requirement already satisfied: numpy in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from mmcls<1.0.0,>=0.16.0->mmtrack) (2.0.2)
+Requirement already satisfied: python-dateutil>=2.7.3 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from pandas<=1.3.5->mmtrack) (2.9.0.post0)
+Collecting pytz>=2017.3 (from pandas<=1.3.5->mmtrack)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting numpy (from mmcls<1.0.0,>=0.16.0->mmtrack)
+  Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (1.3.0)
+Requirement already satisfied: cycler>=0.10 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (1.4.7)
+INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+Collecting matplotlib (from mmtrack)
+  Downloading matplotlib-3.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+  Downloading matplotlib-3.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+  Downloading matplotlib-3.9.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+  Downloading matplotlib-3.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+  Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+Requirement already satisfied: pillow>=8 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (11.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (3.2.5)
+Requirement already satisfied: importlib-resources>=3.2.0 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from matplotlib->mmtrack) (6.5.2)
+INFO: pip is looking at multiple versions of contourpy to determine which version is compatible with other requirements. This could take a while.
+Collecting contourpy>=1.0.1 (from matplotlib->mmtrack)
+  Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.8 kB)
+Requirement already satisfied: zipp>=3.1.0 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from importlib-resources>=3.2.0->matplotlib->mmtrack) (3.23.0)
+Requirement already satisfied: six>=1.5 in /opt/conda/envs/mmpose_t/lib/python3.9/site-packages (from python-dateutil>=2.7.3->pandas<=1.3.5->mmtrack) (1.17.0)
+Collecting xmltodict>=0.12.0 (from motmetrics->mmtrack)
+  Downloading xmltodict-1.0.2-py3-none-any.whl.metadata (15 kB)
+Using cached mmtrack-0.14.0-py3-none-any.whl (400 kB)
+Using cached mmcls-0.25.0-py2.py3-none-any.whl (648 kB)
+Downloading pandas-1.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.5/11.5 MB 119.7 MB/s  0:00:00
+Downloading scipy-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (39.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.8/39.8 MB 105.4 MB/s  0:00:00
+Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 180.6 MB/s  0:00:00
+Downloading matplotlib-3.8.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 176.2 MB/s  0:00:00
+Downloading contourpy-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (304 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached dotty_dict-1.3.1-py3-none-any.whl (7.0 kB)
+Downloading lap-0.5.12-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 116.2 MB/s  0:00:00
+Using cached motmetrics-1.4.0-py3-none-any.whl (161 kB)
+Downloading xmltodict-1.0.2-py3-none-any.whl (13 kB)
+Using cached seaborn-0.13.2-py3-none-any.whl (294 kB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Building wheels for collected packages: attributee
+  Building wheel for attributee (setup.py): started
+  Building wheel for attributee (setup.py): finished with status 'done'
+  Created wheel for attributee: filename=attributee-0.1.9-py3-none-any.whl size=13179 sha256=c997aa60191fb3978b74b28278de5bcb40827582cde4ce4448cceb208cf75966
+  Stored in directory: /home/u20772077/.cache/pip/wheels/4f/ec/33/61a3c133eb3aae88f7406230e3243ec8e2ffd2bd1c57b67436
+Successfully built attributee
+Installing collected packages: pytz, xmltodict, tqdm, numpy, dotty-dict, attributee, scipy, pandas, lap, contourpy, motmetrics, matplotlib, seaborn, mmcls, mmtrack
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.0.2
+    Uninstalling numpy-2.0.2:
+      Successfully uninstalled numpy-2.0.2
+  Attempting uninstall: contourpy
+    Found existing installation: contourpy 1.3.0
+    Uninstalling contourpy-1.3.0:
+      Successfully uninstalled contourpy-1.3.0
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.9.4
+    Uninstalling matplotlib-3.9.4:
+      Successfully uninstalled matplotlib-3.9.4
+
+Successfully installed attributee-0.1.9 contourpy-1.2.1 dotty-dict-1.3.1 lap-0.5.12 matplotlib-3.8.4 mmcls-0.25.0 mmtrack-0.14.0 motmetrics-1.4.0 numpy-1.22.4 pandas-1.3.5 pytz-2025.2 scipy-1.7.3 seaborn-0.13.2 tqdm-4.67.1 xmltodict-1.0.2
