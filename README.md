@@ -20,11 +20,17 @@ The repository is organized into modules corresponding to each stage of the pipe
 
 ## Requirements
 
-Installation instructions and software dependencies will be added soon.
+We reccommend setting up different conda/python environments for each stage in the pipeline as follows:
+1. Dependencies for downloading, interpreter segmentation include - yt_dlp, cv2, moviepy, and mediapipe
+2. Dependencies for ASR include - torch, transformers, and nemo 
+3. Installation instructions and software dependencies for training each of the SLT models in src folder are provided in their read me files. 
 
 ## Usage
 
-Instructions for running the complete dataset construction pipeline will be provided in a future update.
+1. To run the download script : bash crawl_script.sh  -- you need to create a folder and add cookies files in txt format, also create a YouTube API key
+2. To run interpreter python script - python maswao_interpreter_cropping.py
+3. To run ASR code - python name_of_asr_script.py  (e.g python whisper-v3_transcription.py)
+4. Instructions give in readme for running SLT
 
 ## Citation
 
