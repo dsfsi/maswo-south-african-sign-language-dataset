@@ -37,11 +37,11 @@ We reccommend setting up different conda/python environments for each stage in t
 If you use this code or the Maswao dataset in your research, please cite:
 
 ```bibtex
-@article{TBD,
-  title   = {TBD},
-  author  = {TBD},
-  journal = {TBD},
-  year    = {TBD}
+@unpublished{sindane2026maswao,
+  title  = {Maswao: An automatically collected, prepared, and benchmarked dataset for the South African Sign language},
+  author = {Sindane, Thapelo and Netshifhefhe, Unarine and Marivate, Vukosi and Modupe, Abiodun and Combrink, Herkulaas and Sithole, Ketro},
+  note   = {Manuscript under review},
+  year   = {2026}
 }
 ```
 
